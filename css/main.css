@@ -785,6 +785,11 @@ img {
   background-position: center;
 }
 
+.modal__checker:hover + .modal__custom-check,
+.modal__checker:focus-within + .modal__custom-check {
+  border-color: #2196F3;
+}
+
 /* portfolio */
 /* filter */
 .filter {
