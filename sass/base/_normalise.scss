@@ -6,8 +6,8 @@ body {
     font-size: 14px;
     letter-spacing: 0.03em;
 
-    background-color: var(--main-bg-color);
-    color: var(--main-font-color);
+    background-color: $main-bg-color;
+    color: $main-font-color;
 }
 
 *,

@@ -8,8 +8,8 @@ body {
   font-style: normal;
   font-size: 14px;
   letter-spacing: 0.03em;
-  background-color: var(--main-bg-color);
-  color: var(--main-font-color);
+  background-color: #FFFFFF;
+  color: #757575;
 }
 
 *,
@@ -902,6 +902,9 @@ img {
   font-size: 18px;
   line-height: 2;
   letter-spacing: 0.06em;
+}
+.card__link:hover .card__title, .card__link:focus .card__title {
+  color: #212121;
 }
 
 .card__desc {
